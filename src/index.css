@@ -12,7 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+#root{
+  width: 100%;
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -66,3 +68,44 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+*{
+  font-family: 'Montserrat';
+}
+.gradient-custom {
+    background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+      linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+      linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+      radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+      radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+    background-blend-mode: screen, color-dodge, overlay, difference, normal;
+  }
+
+  .fecha{
+   display: flex;
+   margin-left: auto;
+  }
+  .tareaRapida{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    color: red;
+font-weight: bold;
+  }
+#btn-fast{
+  background-color: #00FFFF;
+  border-color: #00FFFF;
+}
+#btn-add{
+  background-color: #51d500;
+  border-color: #51d500;
+}
+  #btn-borrar{
+    background-color: red;
+    border-color: red;
+  }
+
+  #tarea-container{
+    margin-bottom: 10px;
+  }
