@@ -83,6 +83,10 @@ button:focus-visible {
   .fecha{
    display: flex;
    margin-left: auto;
+   margin-top: 10px;
+  }
+  #tar{
+    margin-top: 7px;
   }
   .tareaRapida{
     width: 100%;

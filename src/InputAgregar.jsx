@@ -1,10 +1,11 @@
 import React from 'react'
 
-export default function () {
+export default function InputAgregar({ value, onChange }) {
     return (
         <>
-            <div data-mdb-input-init class="form-outline flex-fill">
-                <input type="text" id="form2" class="form-control" placeholder="Agregar tarea..." />
+            <div   className="form-outline flex-fill">
+                <input type="text" id="form2" className="form-control" placeholder="Agregar tarea..." value={value}
+                    onChange={(e) => onChange(e.target.value)} />
             </div>
 
 

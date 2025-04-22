@@ -4,7 +4,7 @@ import Tarea from './Tarea'
 export default function TareaContainer() {
     return (
         <>
-            <div class="tab-content" id="ex1-content">
+            <div className="tab-content" id="ex1-content">
             </div>
         </>
     )
