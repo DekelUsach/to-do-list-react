@@ -13,6 +13,10 @@ export default function ContenedorGrande() {
   const [nuevaTarea, setNuevaTarea] = useState('');
 
   const agregarTarea = () => {
+    if(nuevaTarea.trim() === ''){
+      alert('no puede agregar una tarea vacia')
+      return;
+    }
     setTareas([...tareas, {
       titulo: nuevaTarea,
       chequeado: false,
